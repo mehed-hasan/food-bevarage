@@ -348,4 +348,8 @@ function parallaxIt(target, movement) {
 
 $(window).on('resize scroll', function(){
   rect = $('#learn_more, #about_us')[0].getBoundingClientRect();
+});
+
+$(".heart").click(function(){
+  $(this).toggleClass("active");
 })
